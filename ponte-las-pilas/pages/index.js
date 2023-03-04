@@ -9,13 +9,13 @@ import Head from 'next/head';
 export default function Home() {
   useEffect(() => {
     // Add the bg-rose-300 class to the html and body elements
-    document.documentElement.classList.add('bg-rose-400');
-    document.body.classList.add('bg-rose-400');
+    document.documentElement.classList.add('bg-red-400');
+    document.body.classList.add('bg-red-400');
 
     // Remove the class on unmount
     return () => {
-      document.documentElement.classList.remove('bg-rose-400');
-      document.body.classList.remove('bg-rose-400');
+      document.documentElement.classList.remove('bg-red-400');
+      document.body.classList.remove('bg-red-400');
     };
   }, []);
 

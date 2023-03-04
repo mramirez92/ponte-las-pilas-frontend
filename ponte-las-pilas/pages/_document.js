@@ -5,8 +5,8 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="preconnect"  href="https://fonts.googleapis.com/css2?family=Economica&family=Urbanist&display=swap" />
-          <link  href="https://fonts.googleapis.com/css2?family=Economica&family=Urbanist&display=swap" rel="stylesheet" />
+          <link rel="preconnect"  href="https://fonts.googleapis.com/css2?family=Economica&family=Urbanist&family=Work+Sans:wght@300&display=swap" />
+          <link  href="https://fonts.googleapis.com/css2?family=Economica&family=Urbanist&family=Work+Sans:wght@300&display=swap" rel="stylesheet" />
         </Head>
         <body>
           <Main />

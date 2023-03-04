@@ -11,8 +11,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        sans:["Urbanist", "sans-serif"],
-        quotes: ["Economica", "sans-serif"]
+        sans:["Urbanist","sans-serif"],
+        quotes: ["Economica", "sans-serif"],
+        worksans:["Work+Sans", "sans-serif"],
       }
     },
   },
