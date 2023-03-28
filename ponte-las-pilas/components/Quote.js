@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const baseUrl = process.env.NEXT_PUBLIC_API_URL;
-const quoteUrl = baseUrl + '/api/v1/dichos/';
+const quoteUrl = baseUrl + 'api/v1/dichos/';
 
 export default function Quote() {
   const [quoteInfo, setQuoteInfo] = useState({ id: null, dicho: null, translation: null });
