@@ -25,7 +25,7 @@ export default function Quote() {
   }, []);
 
   return (
-    <div className="p-12 flex flex-col items-center justify-center grow-0 max-w-6xl group/item">
+    <div className="p-12 flex flex-col items-center justify-center grow-0 max-w-6xl max-h-3 group/item">
       <h1 className="sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl text-center align-middle whitespace-normal text-slate-200 font-bold">
         <span className="font-bold font-quotes font-Economica sm:text-lg md:text-2xl lg:text-5xl xl:text-6xl text-slate-200">&ldquo;</span>
         {quoteInfo.dicho}
