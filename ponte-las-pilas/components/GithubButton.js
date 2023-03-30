@@ -1,7 +1,22 @@
 import Link from "next/link"
 export default function GithubButton() {
     return (
- 
+    
+            <Link href="https://ponte-las-pilas-api-mramirez92.vercel.app/">
+
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"  class="w-6 h-6 hover:scale-125 hover:stroke-slate-900 hover:fill-slate-100 stroke-slate-100/60">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+</svg>
+
+            </Link>
+
+   
+
+
+    )
+}
+
+     {/* </Link>
             <Link href="https://github.com/mramirez92">
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" class="bi bi-github hover:scale-125 hover:fill-slate-100 fill-slate-100/60" viewBox="0 0 24 24">
@@ -9,8 +24,4 @@ export default function GithubButton() {
 
                 </svg>
 
-            </Link>
-
-
-    )
-}
+            </Link> */}
