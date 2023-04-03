@@ -11,8 +11,10 @@ export default function Quote() {
       const response = await fetch(quoteUrl);
       const data = await response.json();
 
-      const randomIndex = Math.floor(Math.random() * data.length) + 1;
-      const randomQuote = data.find((quote) => quote.id === randomIndex);
+      const randomIndex = Math.floor(Math.random() * data.length);
+      console.log(randomIndex);
+      const randomQuote = data[randomIndex];
+      console.log(randomQuote);
 
       setQuoteInfo({
         id: randomQuote.id,
