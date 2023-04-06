@@ -1,9 +1,10 @@
 
 import { useEffect } from 'react';
-import Quote from '@/components/Quote'
-import GithubButton from '@/components/GithubButton';
-import MadeBy from '@/components/Madeby';
+// import Quote from '@/components/Quote'
+import InfoButton from '@/components/footer/InfoButton';
+import MadeBy from '@/components/footer/Madeby';
 import Head from 'next/head';
+import QuoteTest from '@/components/QuoteTest';
 
 const colorsList = [
   'bg-red-400',
@@ -47,12 +48,12 @@ export default function Home() {
       
 
       <div className="flex flex-col justify-center items-center h-screen pl-8 pr-8 m-auto">
-          <Quote />
+          <QuoteTest />
         <div className='self-end absolute bottom-6 left-5'>
           <MadeBy/>
         </div>
         <div className= "absolute bottom-4 right-3">
-          <GithubButton  className= ""/>
+          <InfoButton/>
         </div>
       </div>
     </>
