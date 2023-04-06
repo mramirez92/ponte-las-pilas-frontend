@@ -1,4 +1,19 @@
 /** @type {import('tailwindcss').Config} */
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+const theme = {
+  popover: {
+    styles: {
+      base: {
+        bg: "bg-white",
+        color: "text-blue-gray-500",
+        // Add the outline-none utility class to the focus style
+        focus: "outline-none",
+      },
+    },
+  },
+};
+
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",

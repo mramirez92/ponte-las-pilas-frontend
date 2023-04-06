@@ -1,5 +1,5 @@
 import Link from "next/link"
-export default function GithubButton() {
+export default function InfoButton() {
     return (
         <Link href="https://ponte-las-pilas-api-mramirez92.vercel.app/">
 
