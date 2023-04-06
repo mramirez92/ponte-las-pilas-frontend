@@ -25,7 +25,7 @@ import {
           }}
         >
           <PopoverHandler {...triggers}>
-            <Button className="group/item outline-none text-slate-200/50 group-hover/quote:text-slate-200 border-none">
+            <Button className="group/item outline-none hover:italic">
               Literal
             </Button>
           </PopoverHandler>
