@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 const colorsList = [
     'bg-red-400',
     'bg-sky-500',
-    'bg-emerald-500',
+    'bg-emerald-600',
     'bg-teal-500',
     'bg-amber-500',
     'bg-rose-400',

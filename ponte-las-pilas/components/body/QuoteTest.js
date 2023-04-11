@@ -28,13 +28,13 @@ export default function QuoteTest() {
 
     return (
 
-        <div className="p-12 flex flex-col items-center justify-center grow-0 group/quote">
-            <h1 className="sm:text-2xl md:text-4xl lg:text-4xl xl:text-5xl text-center align-middle whitespace-normal text-slate-200 font-bold tracking-normal leading-snug">
+        <div className="p-3 flex flex-col items-center justify-center grow-0 group/quote">
+            <h1 className="p-1 text-4xl lg:text-6xl text-center align-middle whitespace-normal text-slate-200 font-bold tracking-normal leading-snug">
                 <span className="font-quotes font-Economica">&ldquo;</span>
                 {quote.dicho}
                 <span className="font-quotes font-Economica">&quot;</span>
             </h1>
-            <Translations quote={quote} className=""/>
+            <Translations quote={quote}/>
         </div>
     );
 }
