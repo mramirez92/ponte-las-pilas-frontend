@@ -1,6 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import Translations from "./translations-popovers/Translations";
-
+import Translations from "./Translations";
 const baseUrl = process.env.NEXT_PUBLIC_API_URL;
 const quoteUrl = baseUrl + 'api/v1/dichos/';
 
@@ -29,11 +28,11 @@ export default function QuoteTest() {
 
     return (
 
-        <div className="p-12 flex flex-col items-center justify-center grow-0 max-w-6xl max-h-3 group/quote">
-            <h1 className="sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl text-center align-middle whitespace-normal text-slate-200 font-bold">
-                <span className="font-bold font-quotes font-Economica sm:text-lg md:text-2xl lg:text-5xl xl:text-6xl text-slate-200">&ldquo;</span>
+        <div className="p-12 flex flex-col items-center justify-center grow-0 group/quote">
+            <h1 className="sm:text-2xl md:text-4xl lg:text-4xl xl:text-5xl text-center align-middle whitespace-normal text-slate-200 font-bold tracking-normal leading-snug">
+                <span className="font-quotes font-Economica">&ldquo;</span>
                 {quote.dicho}
-                <span className="font-bold font-quotes font-Economica sm:text-lg md:text-2xl lg:text-5xl xl:text-6xl text-slate-200">&quot;</span>
+                <span className="font-quotes font-Economica">&quot;</span>
             </h1>
             <Translations quote={quote} className=""/>
         </div>

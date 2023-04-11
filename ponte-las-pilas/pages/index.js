@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import InfoButton from '@/components/footer/InfoButton';
 import MadeBy from '@/components/footer/Madeby';
 import Head from 'next/head';
-import QuoteTest from '@/components/QuoteTest';
+import QuoteTest from '@/components/body/QuoteTest';
 
 const colorsList = [
   'bg-red-400',
@@ -47,7 +47,7 @@ export default function Home() {
       </Head>
       
 
-      <div className="flex flex-col justify-center items-center h-screen pl-8 pr-8 m-auto">
+      <div className="flex flex-col justify-center items-center h-screen px-6 mx-auto ">
           <QuoteTest />
         <div className='self-end absolute bottom-6 left-5'>
           <MadeBy/>
